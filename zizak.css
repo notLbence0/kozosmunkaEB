@@ -1,0 +1,268 @@
+ * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: #f6efe6;
+    color: #241d17;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.6;
+  }
+
+  img{
+    max-width: 100%;
+    display: block;
+  }
+
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-half {
+    padding: 40px 24px;
+    color: #fbf3e6;
+  }
+
+  .hero-half.bengal {
+    background: #c67a2c;
+  }
+
+  .hero-half.persian {
+    background: #b98a9d;
+  }
+
+  .hero-half h1 {
+    font-family: "Fraunces", serif;
+    font-size: 2.2rem;
+    margin: 0 0 8px;
+  }
+
+  .hero-half p {
+    margin: 0;
+    max-width: 30ch;
+  }
+
+  .hero-caption {
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    opacity: 0.75;
+    padding: 18px 0;
+  }
+
+  section {
+    padding: 48px 0;
+    border-top: 1px solid #d8cabb;
+  }
+
+  h2.section-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.8rem;
+    margin: 0 0 8px;
+  }
+
+  .section-lede {
+    max-width: 60ch;
+    opacity: 0.78;
+    margin: 0 0 28px;
+  }
+
+  .portrait-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .portrait-card svg {
+    max-width: 260px;
+    margin: 0 auto 16px;
+  }
+
+  .portrait-card h3 {
+    font-family: "Fraunces", serif;
+    margin: 0 0 6px;
+  }
+
+  .breed-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .breed-card {
+    padding: 24px;
+    border: 1px solid #d8cabb;
+    border-radius: 4px;
+  }
+
+  .breed-card.bengal {
+    border-top: 5px solid #c67a2c;
+  }
+
+  .breed-card.persian {
+    border-top: 5px solid #b98a9d;
+  }
+
+  .breed-card h3 {
+    font-family: "Fraunces", serif;
+    margin: 0 0 12px;
+  }
+
+  .breed-card ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .breed-card li {
+    margin-bottom: 8px;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .feature {
+    background: #ece2d3;
+    padding: 20px;
+    border-radius: 4px;
+  }
+
+  .feature .tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .feature.bengal .tag {
+    background: #c67a2c;
+    color: #2a1c0a;
+  }
+
+  .feature.persian .tag {
+    background: #b98a9d;
+    color: #2f1e26;
+  }
+
+  .feature h4 {
+    margin: 0 0 6px;
+  }
+
+  .feature p {
+    margin: 0;
+    opacity: 0.85;
+  }
+
+  .compare-wrap {
+    overflow-x: auto;
+  }
+
+  table.compare {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px;
+  }
+
+  table.compare th, table.compare td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid #d8cabb;
+  }
+
+  table.compare thead th.bengal {
+    color: #c67a2c;
+  }
+
+  table.compare thead th.persian {
+    color: #b98a9d;
+  }
+
+  .fit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .fit-card h3 {
+    font-family: "Fraunces", serif;
+    margin: 0 0 12px;
+  }
+
+  .fit-card p.label {
+    margin: 0 0 6px;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+
+  .fit-card ul {
+    margin: 0 0 16px;
+    padding-left: 20px;
+  }
+
+  .price-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .price-card {
+    padding: 24px;
+    border-radius: 4px;
+    color: #fbf3e6;
+  }
+
+  .price-card.bengal {
+    background: #c67a2c;
+  }
+
+  .price-card.persian {
+    background: #b98a9d;
+  }
+
+  .price-card .amount {
+    font-family: "Fraunces", serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 6px 0 4px;
+  }
+
+  .price-fine {
+    max-width: 65ch;
+    font-size: 0.9rem;
+    opacity: 0.65;
+    margin: 20px 0 0;
+  }
+
+  footer {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    border-top: 1px solid #d8cabb;
+  }
+
+  @media (max-width: 700px) {
+    .hero {
+      grid-template-columns: 1fr;
+    }
+    .breed-grid,
+    .feature-grid,
+    .fit-grid,
+    .price-grid,
+    .portrait-grid {
+      grid-template-columns: 1fr;
+    }
+  }
